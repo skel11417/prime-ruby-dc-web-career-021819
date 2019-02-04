@@ -1,5 +1,7 @@
 # Add  code here!
 def prime?(num)
+  if num <= 0 
+    return false
   num_multiples = 0
   num_array = (1..num).to_a
   num_array.each do |other_num|
